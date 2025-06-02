@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+        <nav>
+            <ol>
+                <li><a href="../index.html">Menu principal</a></li>
+                <li><a href="paginas/libros.html">Libros</a></li>
+                <li><a href="paginas/peliculas.html">Peliculas</a></li>
+                <li><a href="paginas/videojuegos.html">Videojuegos</a></li>
+            </ol>
+        </nav>
+        <img src="../img/img_contacto.PNG" alt="imagenlibros" width="50%">
+        <h1>Danos tu opinion</h1>
+            <p>Ayudanos dejando un comentario respecto a la pagina web o a alguna reseña que te parecio interesante. Tu opinion nos importa.</p>
+    </header>
+
+  <h2>Deja tu comentario</h2>
+  <form action="/enviar_comentario" method="POST">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="comentario">Comentario:</label>
+    <textarea id="comentario" name="comentario" rows="5" required></textarea>
+
+    <button type="submit">Enviar Comentario</button>
+  </form>
+
+    
+</body>
+</html>
